@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "364686440054",
+    "project_id": "chatsynergies",
+    "storage_bucket": "chatsynergies.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:364686440054:android:ed09357af7e7e0fc79d157",
+        "android_client_info": {
+          "package_name": "com.example.chatSynergies"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "364686440054-jhbeu1352fes8intflmulvk5nsi4o1ks.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDR-tU7H9H7aeppDiPfXoXKf_FfpsmZhh4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "364686440054-jhbeu1352fes8intflmulvk5nsi4o1ks.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
