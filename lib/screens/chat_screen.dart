@@ -1,14 +1,13 @@
 import 'dart:async';
 
 import 'package:chatSynergies/blocs/authBloc.dart';
+import 'package:chatSynergies/constants/constants.dart';
 import 'package:chatSynergies/screens/login_screen.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
-
-import 'file:///D:/flutter-projects/chatSynergies/lib/constants/constants.dart';
 
 final _firestore = FirebaseFirestore.instance;
 User loggedInUser;
@@ -72,7 +71,12 @@ class _ChatScreenState extends State<ChatScreen> {
             children: <Widget>[
               MessagesStream(),
               Container(
-                decoration: kMessageContainerDecoration,
+                decoration: BoxDecoration(
+                  color: Colors.transparent,
+                  border: Border(
+                    top: BorderSide.none,
+                  ),
+                ),
                 child: Padding(
                   padding: const EdgeInsets.all(12.0),
                   child: Row(

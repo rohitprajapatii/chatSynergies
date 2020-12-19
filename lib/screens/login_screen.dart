@@ -2,7 +2,7 @@ import 'dart:async';
 
 import 'package:chatSynergies/blocs/authBloc.dart';
 import 'package:chatSynergies/components/Rounded_button.dart';
-import 'file:///D:/flutter-projects/chatSynergies/lib/constants/constants.dart';
+import 'package:chatSynergies/constants/constants.dart';
 import 'package:chatSynergies/screens/registration_screen.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';

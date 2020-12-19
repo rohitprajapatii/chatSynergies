@@ -2,13 +2,12 @@ import 'dart:async';
 
 import 'package:chatSynergies/blocs/authBloc.dart';
 import 'package:chatSynergies/components/Rounded_button.dart';
+import 'package:chatSynergies/constants/constants.dart';
 import 'package:chatSynergies/screens/chat_screen.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:modal_progress_hud/modal_progress_hud.dart';
 import 'package:provider/provider.dart';
-
-import 'file:///D:/flutter-projects/chatSynergies/lib/constants/constants.dart';
 
 class RegistrationScreen extends StatefulWidget {
   static String id = 'RegistrationScreen';
